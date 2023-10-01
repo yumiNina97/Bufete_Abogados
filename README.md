@@ -7,3 +7,5 @@ El objetivo principal de este sistema es ofrecer una solución tecnológica que 
 
 Para desarrollar este sistema, se utilizaron estándares y mejores prácticas de la industria, empleando tecnologías web como Laravel y Ajax para garantizar calidad y estabilidad. Se diseñó con enfoque en la usabilidad y disponibilidad, reduciendo los tiempos para crear registros de clientes y mejorando la experiencia del usuario.
 
+
+
