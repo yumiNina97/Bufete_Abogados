@@ -9,3 +9,5 @@ Para desarrollar este sistema, se utilizaron estándares y mejores prácticas de
 
 La seguridad de la información es una prioridad, con la implementación de herramientas de escaneo de software para identificar y mitigar vulnerabilidades, garantizando la confidencialidad y privacidad de los datos de los clientes.
 
+
+
