@@ -1,1 +1,3 @@
 # Bufete_Abogados
+Introducción
+En la actualidad, la digitalización es una constante y el ámbito legal no es la excepción. Los bufetes y despachos de abogados están adoptando soluciones tecnológicas para simplificar sus tareas y mejorar el servicio a sus clientes. En este contexto, el Bufete de Abogados "Urquiola & Asociados" busca implementar un sistema de información que gestione eficientemente trámites y procesos judiciales.
