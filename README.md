@@ -9,5 +9,5 @@ Para desarrollar este sistema, se utilizaron estándares y mejores prácticas de
 
 La seguridad de la información es una prioridad, con la implementación de herramientas de escaneo de software para identificar y mitigar vulnerabilidades, garantizando la confidencialidad y privacidad de los datos de los clientes.
 
-
+En resumen, el Bufete de Abogados "Urquiola & Asociados" busca optimizar su gestión con un sistema de información que automatice procesos, mejore la comunicación con los clientes y cumpla con altos estándares de seguridad y usabilidad.
 
