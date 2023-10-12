@@ -18,3 +18,10 @@
                         <button class="btn btn-danger btn-icon btn-sm" onclick="eliminarArchivo('{{ $a->id }}', '{{ $a->documento_id }}')"><i class="fa fa-trash"></i></button>
                     </td>
                 </tr>
+                @empty
+                <h4 class="text-danger text-center">Sin Archivos</h4>
+            @endforelse
+        </tbody>
+    </table>
+<!--end::Table-->
+    <script>
