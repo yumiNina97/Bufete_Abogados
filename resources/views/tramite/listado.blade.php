@@ -441,4 +441,28 @@ function eliminarArchivo(archivo, proceso){
                 }
             });
         }
+        function agregarArchivos(){
+            if($("#formulario_new_archivos")[0].checkValidity()){
+
+                var formData = new FormData();
+                var archivo = $('#fileNew')[0].files;
+                for(let i=0;i<archivo.length;i++){
+                    formData.append('archivo[]', archivo[i]);
+                }
+                formData.append('proceso', $('#proceso_id_archivos').val());
+                formData.append('tipo', 1);
+
+                $.ajax({
+                    url: "{{ url('proceso/agregarNewArchivos') }}",
+                    data:formData,
+                    type: 'POST',
+                    dataType: 'json',
+                    processData: false,
+                    contentType: false,
+                    success: function(data) {
+                        if(data.estado === 'success'){
+                            $('#tabla_archivo').html(data.listado);
+                        }
+                    }
+                });
           
