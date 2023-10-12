@@ -131,3 +131,20 @@
                             </div>
                             <div class="col-md-6">
                                 <label class="required fw-semibold fs-6 mb-2">Archivo</label>
+                                <input type="file" class="form-control" name="file[]" id="file" multiple>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button class="btn btn-success w-100" onclick="guardarCliente()">Guardar</button>
+                        </div>
+                    </div>
+                </div>
+                <!--end::Modal body-->
+            </div>
+            <!--end::Modal content-->
+        </div>
+        <!--end::Modal dialog-->
+    </div>
+    <!--end::Modal - Add task-->
