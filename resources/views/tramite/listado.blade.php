@@ -208,3 +208,12 @@
                             <div class="modal-body scroll-y mx-5 mx-xl-15 my-7">
                                 <!--begin::Form-->
                                 <form id="kt_modal_export_users_form" class="form" action="#">
+                                    
+                                    <!--begin::Input group-->
+                                    <div class="fv-row mb-10">
+                                        <!--begin::Label-->
+                                        <label class="fs-6 fw-semibold form-label mb-2">Select Roles:</label>
+                                        <!--end::Label-->
+                                        <!--begin::Input-->
+                                        <select name="role" data-control="select2" data-placeholder="Select a role" data-hide-search="true" class="form-select form-select-solid fw-bold">
+                                            
