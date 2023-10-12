@@ -425,4 +425,20 @@ $.ajax({
 $('#nombre_proceso').text(nombre)
 $('#modal_archivos').modal('show')
 }
+function eliminarArchivo(archivo, proceso){
+            $.ajax({
+                url: "{{ url('proceso/eliminarArchivo') }}",
+                type: 'POST',
+                data:  {
+                    id:archivo,
+                    proceso:proceso,
+                    tipo:1
+                },
+                dataType: 'json',
+                success: function(data) {
+                    if(data.estado === 'success')
+                        $('#tabla_archivo').html(data.listado);
+                }
+            });
+        }
           
