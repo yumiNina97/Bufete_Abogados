@@ -216,4 +216,13 @@
                                         <!--end::Label-->
                                         <!--begin::Input-->
                                         <select name="role" data-control="select2" data-placeholder="Select a role" data-hide-search="true" class="form-select form-select-solid fw-bold">
-                                            
+
+ <option></option>
+                                            <option value="Administrator">Administrator</option>
+                                            <option value="Analyst">Analyst</option>
+                                            <option value="Developer">Developer</option>
+                                            <option value="Support">Support</option>
+                                            <option value="Trial">Trial</option>
+                                        </select>
+                                        <!--end::Input-->
+                                    </div>
