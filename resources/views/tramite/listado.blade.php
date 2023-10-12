@@ -113,3 +113,15 @@
                             <div class="col-md-4">
                                 <div class="fv-row mb-7">
                                     <label class="required fw-semibold fs-6 mb-2">Cita</label>
+                                    <input type="datetime-local" id="cita" name="cita" class="form-control form-control-solid mb-3 mb-lg-0">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="fv-row mb-7">
+                                    <label class="required fw-semibold fs-6 mb-2">Cliente</label>
+                                    <select name="cliente_id" id="cliente_id" class="form-control form-control-solid mb-3 mb-lg-0"  data-control="select2" data-dropdown-parent="#kt_modal_add_user" data-placeholder="Select an option" data-allow-clear="true">
+                                        <option value="">SELECCIONE</option>
+                                        @foreach ( $clientes as $c)
+                                        <option value="{{ $c->id }}">{{ $c->nombres }}</option>
