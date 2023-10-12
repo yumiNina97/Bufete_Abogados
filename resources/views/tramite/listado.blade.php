@@ -125,3 +125,9 @@
                                         <option value="">SELECCIONE</option>
                                         @foreach ( $clientes as $c)
                                         <option value="{{ $c->id }}">{{ $c->nombres }}</option>
+                                        @endforeach
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="required fw-semibold fs-6 mb-2">Archivo</label>
