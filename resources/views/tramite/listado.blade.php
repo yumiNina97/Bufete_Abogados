@@ -32,3 +32,20 @@
                         <div class="row">
                             <div class="col-md-8">
                                 <input type="file" id="fileNew" class="form-control" multiple required>
+                                </div>
+                            <div class="col-md-4">
+                                <button class="btn btn-success btn-sm w-100" type="button" onclick="agregarArchivos()"><i class="fa fa-plus"></i></button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div id="tabla_archivo">
+
+                    </div>
+                </div>
+            </div>
+            <!--end::Modal content-->
+        </div>
+        <!--end::Modal dialog-->
+    </div>
+    <!--end::Modal - Add task-->
