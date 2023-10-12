@@ -185,3 +185,14 @@
                 <!--end::Group actions-->
                 <!--begin::Modal - Adjust Balance-->
                 <div class="modal fade" id="kt_modal_export_users" tabindex="-1" aria-hidden="true">
+                     <!--begin::Modal dialog-->
+                     <div class="modal-dialog modal-dialog-centered mw-650px">
+                        <!--begin::Modal content-->
+                        <div class="modal-content">
+                            <!--begin::Modal header-->
+                            <div class="modal-header">
+                                <!--begin::Modal title-->
+                                <h2 class="fw-bold">Export Users</h2>
+                                <!--end::Modal title-->
+                                <!--begin::Close-->
+                                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-kt-users-modal-action="close">
