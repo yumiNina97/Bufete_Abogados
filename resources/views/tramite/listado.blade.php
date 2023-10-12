@@ -226,3 +226,22 @@
                                         </select>
                                         <!--end::Input-->
                                     </div>
+                                    <!--end::Input group-->
+                                    <!--begin::Input group-->
+                                    <div class="fv-row mb-10">
+                                        <!--begin::Label-->
+                                        <label class="required fs-6 fw-semibold form-label mb-2">Select Export Format:</label>
+                                        <!--end::Label-->
+                                        <!--begin::Input-->
+                                        <select name="format" data-control="select2" data-placeholder="Select a format" data-hide-search="true" class="form-select form-select-solid fw-bold">
+                                            <option></option>
+                                            <option value="excel">Excel</option>
+                                            <option value="pdf">PDF</option>
+                                            <option value="cvs">CVS</option>
+                                            <option value="zip">ZIP</option>
+                                        </select>
+                                        <!--end::Input-->
+                                    </div>
+                                    <!--end::Input group-->
+                                    <!--begin::Actions-->
+                                    <div class="text-center">
