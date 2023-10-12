@@ -465,4 +465,10 @@ function eliminarArchivo(archivo, proceso){
                         }
                     }
                 });
+            }else{
+    			$("#formulario_new_archivos")[0].reportValidity()
+            }
+        }
+    </script>
+@endsection
           
