@@ -406,4 +406,23 @@ if($("#formularioRol")[0].checkValidity()){
 
             $('#kt_modal_add_user').modal('show');
         }
+        function verArchivo(proceso, nombre){
+
+$.ajax({
+    url: "{{ url('proceso/ajaxListadoArchivo') }}",
+    type: 'POST',
+    data:  {
+        id:proceso,
+        tipo:1
+    },
+    dataType: 'json',
+    success: function(data) {
+        if(data.estado === 'success')
+            $('#tabla_archivo').html(data.listado);
+    }
+});
+
+$('#nombre_proceso').text(nombre)
+$('#modal_archivos').modal('show')
+}
           
