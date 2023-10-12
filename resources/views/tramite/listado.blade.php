@@ -164,3 +164,17 @@
                     </i>
                     <input type="text" data-kt-user-table-filter="search" class="form-control form-control-solid w-250px ps-13" placeholder="Buscar Venta" />
                 </div>
+                <!--end::Search-->
+            </div>  --}}
+            <!--begin::Card title-->
+            <!--begin::Card toolbar-->
+            <div class="card-toolbar">
+                <!--begin::Toolbar-->
+                <div class="d-flex justify-content-end" data-kt-user-table-toolbar="base">
+                    <button type="button" class="btn btn-primary" onclick="nuevo()">
+                    <i class="ki-duotone ki-plus fs-2"></i>Nuevo Tramite</button>
+                    <!--end::Add user-->
+                </div>
+                <!--end::Toolbar-->
+                <!--begin::Group actions-->
+                <div class="d-flex justify-content-end align-items-center d-none" data-kt-user-table-toolbar="selected">
