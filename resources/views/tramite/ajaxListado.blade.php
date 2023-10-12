@@ -31,3 +31,12 @@
                         <a class="text-gray-800 text-hover-primary mb-1">{{ $t->fecha_cita }}</a>
                     </td>
                     <td class="text-end">
+                    <button class="mb-1 btn btn-info btn-sm btn-icon" onclick="verArchivo('{{ $t->id }}','{{ $t->nombre }}')"> <i class="fa fa-file"></i></button>
+                        <button class="btn btn-warning btn-icon btn-sm" onclick="editar('{{ $t->id }}', '{{ $t->nombre }}', '{{ $t->descripcion }}', '{{ $t->tipo }}', '{{ $t->estado }}', '{{ $t->personas }}', '{{ $t->fecha_cita }}', '{{ $t->cliente_id }}')"><i class="fa fa-edit"></i></button>
+                        <button class="btn btn-danger btn-icon btn-sm" onclick="eliminar('{{ $t->id }}')"><i class="fa fa-trash"></i></button>
+                    </td>
+                </tr>
+            @empty
+                <h4 class="text-danger text-center">Sin registros</h4>
+            @endforelse
+            
