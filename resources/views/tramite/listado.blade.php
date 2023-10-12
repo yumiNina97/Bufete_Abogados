@@ -288,3 +288,15 @@
     <script src="{{ asset('assets/js/custom/utilities/modals/upgrade-plan.js') }}"></script>
     <script src="{{ asset('assets/js/custom/utilities/modals/create-app.js') }}"></script>
     <script src="{{ asset('assets/js/custom/utilities/modals/users-search.js') }}"></script>  --}}
+    <script type="text/javascript">
+
+        $.ajaxSetup({
+            // definimos cabecera donde estarra el token y poder hacer nuestras operaciones de put,post...
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        })
+
+        $( document ).ready(function() {
+            ajaxListado();
+        });
