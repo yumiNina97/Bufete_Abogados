@@ -352,3 +352,21 @@ if($("#formularioRol")[0].checkValidity()){
                 $('#kt_modal_add_user').modal('hide');
             }
         }
+    }
+                });
+            }else{
+    			$("#formularioRol")[0].reportValidity()
+            }  --}}
+        }
+
+        function ajaxListado(){
+            $.ajax({
+                url: "{{ url('tramite/ajaxListado') }}",
+                type: 'POST',
+                dataType: 'json',
+                success: function(data) {
+                    if(data.estado === 'success')
+                        $('#table_roles').html(data.listado);
+                }
+            });
+        }
