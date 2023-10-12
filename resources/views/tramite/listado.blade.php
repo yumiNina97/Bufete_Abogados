@@ -391,5 +391,19 @@ if($("#formularioRol")[0].checkValidity()){
             $('#personas').val(personas)
             $('#cita').val(cita)
             $('#cliente_id').val(cliente_id)
+            $('#kt_modal_add_user').modal('show');
+        }
 
+        function nuevo(){
+            $('#tramite_id').val('0')
+            $('#nombre').val('')
+            $('#descripcion').val('')
+            $('#tipo').val('')
+            $('#estado').val('')
+            $('#personas').val('')
+            $('#cita').val('')
+            $('#cliente_id').val('')
+
+            $('#kt_modal_add_user').modal('show');
+        }
           
