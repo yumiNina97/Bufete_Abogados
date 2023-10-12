@@ -300,3 +300,21 @@
         $( document ).ready(function() {
             ajaxListado();
         });
+        function guardarCliente(){
+
+if($("#formularioRol")[0].checkValidity()){
+
+    var formData = new FormData();
+    var archivo = $('#file')[0].files;
+    for(let i=0;i<archivo.length;i++){
+        formData.append('archivo[]', archivo[i]);
+    }
+
+    formData.append('nombre', $('#nombre').val());
+    formData.append('tramite_id', $('#tramite_id').val());
+    formData.append('descripcion', $('#descripcion').val());
+    formData.append('tipo', $('#tipo').val());
+    formData.append('estado', $('#estado').val());
+    formData.append('personas', $('#personas').val());
+    formData.append('fecha_cita', $('#cita').val());
+    formData.append('cliente_id', $('#cliente_id').val());
