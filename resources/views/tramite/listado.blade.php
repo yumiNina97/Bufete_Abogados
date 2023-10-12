@@ -334,3 +334,21 @@ if($("#formularioRol")[0].checkValidity()){
                 });
 
             }else{
+            }
+
+
+
+
+{{--  if($("#formularioRol")[0].checkValidity()){
+    datos = $("#formularioRol").serializeArray()
+    $.ajax({
+        url: "{{ url('tramite/guarda') }}",
+        data:datos,
+        type: 'POST',
+        dataType: 'json',
+        success: function(data) {
+            if(data.estado === 'success'){
+                $('#table_roles').html(data.listado);
+                $('#kt_modal_add_user').modal('hide');
+            }
+        }
