@@ -382,3 +382,14 @@ if($("#formularioRol")[0].checkValidity()){
                 }
             });
         }
+        function editar(tramite, nombre, des, tpo, estado, personas, cita, cliente_id){
+            $('#tramite_id').val(tramite)
+            $('#nombre').val(nombre)
+            $('#descripcion').val(des)
+            $('#tipo').val(tpo)
+            $('#estado').val(estado)
+            $('#personas').val(personas)
+            $('#cita').val(cita)
+            $('#cliente_id').val(cliente_id)
+
+          
