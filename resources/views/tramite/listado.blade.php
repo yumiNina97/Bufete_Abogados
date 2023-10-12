@@ -80,3 +80,11 @@
                             <div class="col-md-4">
                                 <div class="fv-row mb-7">
                                     <label class="required fw-semibold fs-6 mb-2">Nombres</label>
+                                    <input type="text" id="nombre" name="nombre" class="form-control form-control-solid mb-3 mb-lg-0">
+                                    <input type="hidden" value="0" id="tramite_id" name="tramite_id">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="fv-row mb-7">
+                                    <label class="required fw-semibold fs-6 mb-2">Descripcion</label>
+                                    <input type="text" id="descripcion" name="descripcion" class="form-control form-control-solid mb-3 mb-lg-0">
