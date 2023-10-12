@@ -318,3 +318,19 @@ if($("#formularioRol")[0].checkValidity()){
     formData.append('personas', $('#personas').val());
     formData.append('fecha_cita', $('#cita').val());
     formData.append('cliente_id', $('#cliente_id').val());
+    $.ajax({
+                    url: "{{ url('tramite/guarda') }}",
+                    data:formData,
+                    type: 'POST',
+                    dataType: 'json',
+                    processData: false,
+                    contentType: false,
+                    success: function(data) {
+                        if(data.estado === 'success'){
+                            $('#table_roles').html(data.listado);
+                            $('#kt_modal_add_user').modal('hide');
+                        }
+                    }
+                });
+
+            }else{
