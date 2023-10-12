@@ -11,3 +11,10 @@
             @forelse ( $archivos as  $a )
                 <tr>
                     <td>
+                    <a class="text-gray-800 text-hover-primary mb-1">{{ $a->nombre }}</a>
+                    </td>
+                    <td class="text-end">
+                        <a href='{{ url("archivoProceso/$a->nombre") }}' download class="mb-1 btn btn-success btn-sm btn-icon"> <i class="fa fa-download"></i></a>
+                        <button class="btn btn-danger btn-icon btn-sm" onclick="eliminarArchivo('{{ $a->id }}', '{{ $a->documento_id }}')"><i class="fa fa-trash"></i></button>
+                    </td>
+                </tr>
