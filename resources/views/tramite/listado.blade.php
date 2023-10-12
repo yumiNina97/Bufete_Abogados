@@ -101,3 +101,15 @@
                             <div class="col-md-4">
                                 <div class="fv-row mb-7">
                                     <label class="required fw-semibold fs-6 mb-2">Estado</label>
+                                    <input type="text" id="estado" name="estado" class="form-control form-control-solid mb-3 mb-lg-0">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="fv-row mb-7">
+                                    <label class="required fw-semibold fs-6 mb-2">Personas</label>
+                                    <input type="text" id="personas" name="personas" class="form-control form-control-solid mb-3 mb-lg-0">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="fv-row mb-7">
+                                    <label class="required fw-semibold fs-6 mb-2">Cita</label>
