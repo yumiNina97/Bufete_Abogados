@@ -370,3 +370,15 @@ if($("#formularioRol")[0].checkValidity()){
                 }
             });
         }
+        function eliminar(cliente){
+            $.ajax({
+                url: "{{ url('tramite/eliminar') }}",
+                type: 'POST',
+                data:{id:cliente},
+                dataType: 'json',
+                success: function(data) {
+                    if(data.estado === 'success')
+                        $('#table_roles').html(data.listado);
+                }
+            });
+        }
