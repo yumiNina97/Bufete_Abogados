@@ -196,3 +196,15 @@
                                 <!--end::Modal title-->
                                 <!--begin::Close-->
                                 <div class="btn btn-icon btn-sm btn-active-icon-primary" data-kt-users-modal-action="close">
+                                <i class="ki-duotone ki-cross fs-1">
+                                        <span class="path1"></span>
+                                        <span class="path2"></span>
+                                    </i>
+                                </div>
+                                <!--end::Close-->
+                            </div>
+                            <!--end::Modal header-->
+                            <!--begin::Modal body-->
+                            <div class="modal-body scroll-y mx-5 mx-xl-15 my-7">
+                                <!--begin::Form-->
+                                <form id="kt_modal_export_users_form" class="form" action="#">
