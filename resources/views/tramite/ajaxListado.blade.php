@@ -28,3 +28,7 @@
                         <a class="text-gray-800 text-hover-primary mb-1">{{ $t->estado }}</a>
                     </td>
                     <td>
+                    <a class="text-gray-800 text-hover-primary mb-1">{{ $t->fecha_cita }}</a>
+                    </td>
+                    <td class="text-end">
+                    <button class="mb-1 btn btn-info btn-sm btn-icon" onclick="verArchivo('{{ $t->id }}','{{ $t->nombre }}')"> <i class="fa fa-file"></i></button>
