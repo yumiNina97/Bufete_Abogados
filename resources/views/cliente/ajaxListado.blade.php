@@ -46,3 +46,9 @@
     <script>
         $('#kt_table_users1').DataTable({
             {{--  responsive: true,
+                language: {
+                url: '{{ asset('datatableEs.json') }}',
+            },
+            order: [[ 0, "desc" ]]  --}}
+        });
+    </script>
