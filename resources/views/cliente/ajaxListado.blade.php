@@ -28,3 +28,7 @@
                     </td> <td>
                         <a class="text-gray-800 text-hover-primary mb-1">{{ $c->telefonos }}</a>
                     </td>
+                    <td>
+                        <a class="text-gray-800 text-hover-primary mb-1">{{ $c->direccion }}</a>
+                    </td>
+                    <td class="text-end">
