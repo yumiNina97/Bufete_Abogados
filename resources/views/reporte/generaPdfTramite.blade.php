@@ -125,9 +125,4 @@
                    <td>{{ $p->personas }}</td>
                    {{--  <td>{{ $p->estado }}</td>  --}}
                    <td>{{ $p->fecha_cita }}</td>
-                </tr>
-            @endforeach
-        </table>
-    </main>
-</body>
-</html>
+       
