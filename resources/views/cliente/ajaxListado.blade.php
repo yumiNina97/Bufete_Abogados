@@ -19,3 +19,7 @@
                         </div>
                     </td>
                     <td>
+                    <a class="text-gray-800 text-hover-primary mb-1">{{ $c->ap_paterno }}</a>
+                    </td>
+                    <td>
+                        <a class="text-gray-800 text-hover-primary mb-1">{{ $c->ap_materno }}</a>
