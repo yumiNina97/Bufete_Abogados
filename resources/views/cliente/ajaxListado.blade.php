@@ -10,3 +10,12 @@
                 <th class="min-w-125px">Direccion</th>
                 <th class="text-end min-w-100px">Actions</th>
             </tr>
+            <tbody class="text-gray-600 fw-semibold">
+            @forelse ( $clientes as  $c )
+                <tr>
+                    <td class="d-flex align-items-center">
+                        <div class="d-flex flex-column">
+                            <a class="text-gray-800 text-hover-primary mb-1">{{ $c->nombres }}</a>
+                        </div>
+                    </td>
+                    <td>
