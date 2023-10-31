@@ -32,3 +32,5 @@
                         <a class="text-gray-800 text-hover-primary mb-1">{{ $c->direccion }}</a>
                     </td>
                     <td class="text-end">
+                    <button class="btn btn-warning btn-icon btn-sm" onclick="editar('{{ $c->id }}', '{{ $c->nombres }}', '{{ $c->ap_paterno }}', '{{ $c->ap_materno }}', '{{ $c->cedula }}', '{{ $c->telefonos }}', '{{ $c->correo }}', '{{ $c->direccion }}')"><i class="fa fa-edit"></i></button>
+                        <button class="btn btn-danger btn-icon btn-sm" onclick="eliminar('{{ $c->id }}')"><i class="fa fa-trash"></i></button>
