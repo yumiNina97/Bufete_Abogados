@@ -34,3 +34,8 @@
                     <td class="text-end">
                     <button class="btn btn-warning btn-icon btn-sm" onclick="editar('{{ $c->id }}', '{{ $c->nombres }}', '{{ $c->ap_paterno }}', '{{ $c->ap_materno }}', '{{ $c->cedula }}', '{{ $c->telefonos }}', '{{ $c->correo }}', '{{ $c->direccion }}')"><i class="fa fa-edit"></i></button>
                         <button class="btn btn-danger btn-icon btn-sm" onclick="eliminar('{{ $c->id }}')"><i class="fa fa-trash"></i></button>
+                        </td>
+                </tr>
+            @empty
+                <h4 class="text-danger text-center">Sin registros</h4>
+            @endforelse
