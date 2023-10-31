@@ -25,4 +25,6 @@
                         <a class="text-gray-800 text-hover-primary mb-1">{{ $c->ap_materno }}</a> </td>
                     <td>
                         <a class="text-gray-800 text-hover-primary mb-1">{{ $c->cedula }}</a>
+                    </td> <td>
+                        <a class="text-gray-800 text-hover-primary mb-1">{{ $c->telefonos }}</a>
                     </td>
