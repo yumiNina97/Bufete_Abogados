@@ -39,3 +39,10 @@
             @empty
                 <h4 class="text-danger text-center">Sin registros</h4>
             @endforelse
+
+            </tbody>
+    </table>
+<!--end::Table-->
+    <script>
+        $('#kt_table_users1').DataTable({
+            {{--  responsive: true,
