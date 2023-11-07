@@ -55,3 +55,16 @@
                                 </div>
                             </div>
                         </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="fv-row mb-7">
+                                    <label class="required fw-semibold fs-6 mb-2">Cedula</label>
+                                    <input type="text" id="cedula" name="cedula" class="form-control form-control-solid mb-3 mb-lg-0" pattern="[0-9]{7,}" title="La cedula debe contener solo numeros y mayor a 7 digitos" required>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="fv-row mb-7">
+                                    <label class="required fw-semibold fs-6 mb-2">Telefonos</label>
+                                    <input type="number" id="telefono" name="telefono" class="form-control form-control-solid mb-3 mb-lg-0" pattern="[0-9]{7,}" title="El telefono debe contener solo numeros y mayor a 7 digitos" required>
+                                </div>
