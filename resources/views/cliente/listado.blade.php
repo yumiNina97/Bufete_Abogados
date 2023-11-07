@@ -42,3 +42,16 @@
                                     <input type="hidden" value="0" id="cliente_id" name="cliente_id">
                                 </div>
                             </div>
+                            <div class="col-md-4">
+                                <div class="fv-row mb-7">
+                                    <label class="required fw-semibold fs-6 mb-2">Ap Paterno</label>
+                                    <input type="text" id="ap_paterno" name="ap_paterno" class="form-control form-control-solid mb-3 mb-lg-0" pattern="[a-zA-Z]{4,}" title="El apellido debe contener solo letras y al menos cuatro caracteres" required>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="fv-row mb-7">
+                                    <label class="required fw-semibold fs-6 mb-2">Ap Materno</label>
+                                    <input type="text" id="ap_materno" name="ap_materno" class="form-control form-control-solid mb-3 mb-lg-0" pattern="[a-zA-Z]{4,}" title="El apellido debe contener solo letras y al menos cuatro caracteres" required>
+                                </div>
+                            </div>
+                        </div>
