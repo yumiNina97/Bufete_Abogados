@@ -25,3 +25,20 @@
                             <span class="path1"></span>
                             <span class="path2"></span>
                         </i>
+                        </div>
+                    <!--end::Close-->
+                </div>
+                <!--end::Modal header-->
+                <!--begin::Modal body-->
+                <div class="modal-body scroll-y mx-5 mx-xl-15 my-7">
+
+                    <form id="formularioRol">
+                        @csrf
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="fv-row mb-7">
+                                    <label class="required fw-semibold fs-6 mb-2">Nombres</label>
+                                    <input type="text" id="nombres" name="nombres" class="form-control form-control-solid mb-3 mb-lg-0" pattern="[a-zA-Z\s]{4,}" title="El nombre debe contener solo letras y al menos cuatro caracteres" required>
+                                    <input type="hidden" value="0" id="cliente_id" name="cliente_id">
+                                </div>
+                            </div>
