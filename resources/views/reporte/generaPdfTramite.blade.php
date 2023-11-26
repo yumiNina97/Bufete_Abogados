@@ -64,3 +64,20 @@
             padding: 2px;
             text-align: center;
         }
+        
+        .celdabg {
+            /* background-color: #E1ECF4; */
+            background-color: #ffffff;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <table style="width:100%">
+            <tr>
+                <td style="text-align:center; font-family: 'Times New Roman', Times, serif; font-size:20px; line-height:100%">
+                    <strong>URQUIOLA & ASOCIADOS</strong>
+                </td>
+            </tr>
+            <tr>
