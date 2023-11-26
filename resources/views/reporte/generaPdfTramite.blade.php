@@ -37,3 +37,15 @@
             text-align: center;
             line-height: 35px;
         }
+        .bordes {
+            /* border: #24486C 1px solid; */
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+
+        table.celdas {
+            width: 100%;
+            background-color: #fff;
+            /* border: 1px solid; */
+            border-collapse: collapse;
+        }
