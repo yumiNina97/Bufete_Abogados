@@ -94,3 +94,20 @@
     </header>
     <main>
         <center>
+        <h3>REPORTE DE TRAMITES</h3>
+        </center>
+        <table cellpadding="1" class="celdas" style="font-family: 'Times New Roman', Times, serif; font-size:10px; text-align:center">
+            <tr>
+                <th>N°</th>
+                <th>CLIENTE</th>
+                <th>CEDULA</th>
+                <th>TELEFONO</th>
+                <th>NOMBRE DEL PROCESO</th>
+                <th>DESCRIPCION</th>
+                <th>TIPO</th>
+                <th>PERSONAS</th>
+                {{--  <th>ESTADO</th>  --}}
+                <th>FECHA</th>
+            </tr>
+            @foreach ($procesos as $key => $p)
+                <tr>
