@@ -49,3 +49,18 @@
             /* border: 1px solid; */
             border-collapse: collapse;
         }
+        .celdas th {
+            height: 10px;
+            background-color: #E0E0E0;
+            /* color: #fff; */
+        }
+
+        .celdas td {
+            height: 12px;
+        }
+
+        .celdas th, .celdas td {
+            border: 1px solid black;
+            padding: 2px;
+            text-align: center;
+        }
