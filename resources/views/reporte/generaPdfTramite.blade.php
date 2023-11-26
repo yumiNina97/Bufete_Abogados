@@ -111,3 +111,19 @@
             </tr>
             @foreach ($procesos as $key => $p)
                 <tr>
+                <td>{{ $key+1 }}</td>
+                   <td>{{ $p->nombres." ".$p->ap_paterno." ".$p->ap_materno }}</td>
+                   <td>{{ $p->cedula }}</td>
+                   <td>{{ $p->telefonos }}</td>
+                   <td>{{ $p->nombre }}</td>
+                   <td>{{ $p->descripcion }}</td>
+                   <td>{{ $p->tipo }}</td>
+                   <td>{{ $p->personas }}</td>
+                   {{--  <td>{{ $p->estado }}</td>  --}}
+                   <td>{{ $p->fecha_cita }}</td>
+                   </tr>
+            @endforeach
+        </table>
+    </main>
+</body>
+</html>
