@@ -26,3 +26,14 @@
             text-align: center;
             line-height: 30px;
         }
+        footer {
+            position: fixed;
+            bottom: 0cm;
+            left: 1cm;
+            right: 1cm;
+            height: 2cm;
+            background-color: #fff;
+            color: black;
+            text-align: center;
+            line-height: 35px;
+        }
