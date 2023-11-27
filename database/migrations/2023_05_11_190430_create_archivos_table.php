@@ -1,0 +1,40 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('archivos', function (Blueprint $table) {
+            $table->id();
+
+            // $table->foreign('documento')->references('id')->on('procesos');
+            // $table->unsignedBigInteger('proceso_id')->nullable();
+
+            $table->string('documento_id')->nullable();
+
+            $table->string('nombre')->nullable();
+            $table->string('tipo')->nullable();
+            $table->datetime('deleted_at')->nullable();
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('archivos');
+    }
+};
