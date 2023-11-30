@@ -29,3 +29,5 @@ class Cliente extends Model
         'deleted_at',
     ];
 }
+
+
